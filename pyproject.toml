@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "book-butler"
+version = "1.0.0"
+description = "The easy way of looking up a book or author."
+authors = ["AfterNoon PM <h2o.Drop2010+book_butler@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8.1, <3.13"
+requests = "^2.31.0"
+spacename = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+flake8 = "^6.1.0"
+pyinstaller = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
